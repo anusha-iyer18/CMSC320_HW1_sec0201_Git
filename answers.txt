@@ -27,3 +27,10 @@ branch you are rebasing onto. For example, if you are on a branch called "featur
 feature onto the latest changes to main, and your feature now includes all the latest commits to main as well. Rebasing will make it appear 
 as though your feature branch originated from the latest changes to the main branch, and rewrites the commit history of the feature branch 
 so that it is linear, as opposed to merging which would have maintained the commit history of both branches.
+
+Q4: What are you looking forward to this semester?
+
+Answer: I’m looking forward to learning more about data visualization and analysis tools and the use of machine learning
+tools in data science.I don’t have much knowledge coming into this class other than basic SQL knowledge, so I’m looking
+forward to not only learning more about data science, but also the key tools involved in data science so that I can explore
+data science as another avenue in my computer science learning journey.
