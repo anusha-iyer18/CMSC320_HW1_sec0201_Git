@@ -16,3 +16,14 @@ tracking diseases, outbreaks, population health characteristics/determinants, an
 resulting models and insights can help healthcare professionals make predictions on future outcomes or risks for the population's health,
 and the results from the data analysis can help better inform what decisions healthcare professionals make to help the general population
 and improve overall health.
+
+Q3: What is the difference between Merging and Rebasing?
+
+Answer: Merging allows you to applies the changes from one branch (the branch you are merging in) to the branch that you are currently on,
+which allows you to combine the changes from both branches into the branch that you are currently on. When you merge the two branches,
+this creates a new merge commit and it still preserves the history of the two branches before they converged. On the other hand, 
+rebasing means that it takes commits from the branch you are currently on and re-applies them, essentially “replaying” them, on top of the
+branch you are rebasing onto. For example, if you are on a branch called "feature" and do "git rebase main" this will apply the commits on 
+feature onto the latest changes to main, and your feature now includes all the latest commits to main as well. Rebasing will make it appear 
+as though your feature branch originated from the latest changes to the main branch, and rewrites the commit history of the feature branch 
+so that it is linear, as opposed to merging which would have maintained the commit history of both branches.
