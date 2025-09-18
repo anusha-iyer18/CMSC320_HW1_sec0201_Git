@@ -1,0 +1,8 @@
+Q1: Why might we consider using Git?
+
+Answer: Using Git can be helpful for version control, as you can keep track of the changes that you make through 
+commit history, as Git keeps track of your code base over time, and that can be helpful to go back to so that you
+can review, revise, or revert back to certain changes that assisted with your goal. Git is also useful for collaborating,
+because you can maintain a central remote repository for your code base, and each developer can make their own branches
+to work on different features without conflicting with anyone else's development, and then those changes can be pushed from
+their local repository to the remote one to be viewed and reviewed by other developers for feedback and approval.
